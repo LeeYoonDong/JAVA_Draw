@@ -58,7 +58,7 @@
 <br/>
 <br/>
 
-# Java-based Paint Program
+# Java Paint Program
 
 This project is a simple drawing board program implemented using Java Swing. Users can draw different shapes, select colors, and add text.
 
