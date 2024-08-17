@@ -55,5 +55,64 @@
 - 레이어 기능 구현
 - 이미지 삽입 기능 추가
 - 사용자 인터페이스 개선
+<br/>
+<br/>
+# Java-based Paint Program
+
+This project is a simple drawing board program implemented using Java Swing. Users can draw different shapes, select colors, and add text.
+
+## Key Features
+
+1. Drawing Features
+- Draw Line, Square, Ellipse
+- Draw a filled square, ellipse
+- Add Text
+
+2. Select Color
+- Select default color (red, blue, yellow, green, black, white)
+- Select a custom color
+
+3. Font Settings
+- Select font type, style, and size
+
+4. File Management
+- Create a new file
+- Save and import
+
+5. Edit Features
+- Right-click to delete a figure
+
+## How to use it
+
+1. Select the desired tool from the top menu after running the program
+2. Draw a figure by dragging with your mouse in the canvas area
+3. When entering text, click the desired location and enter text into the dialog
+4. Right-click to delete the nearest figure
+5. Enable save and import capabilities from the File menu
+
+## development environment
+
+- Language: Java
+- GUI Framework: Java Swing
+- Development tools: (Add IDE information used)
+
+## Project Structure
+
+- 'Shape.java': basic information class for picture elements
+- 'AddLable.java': text input dialog class
+- 'Select Font.java': font selection dialog class
+- 'DrawPicture.java': Main Paint Class
+
+## How to execute
+
+1. Compiles the source code.
+2. Run the 'main' method of the 'DrawPicture' class.
+
+## Future Improvements
+
+- Add undone/re-enable capabilities
+- Implementing Layer Features
+- Add Image Insertion
+- Improve user interface
 
 
